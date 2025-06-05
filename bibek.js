@@ -7,4 +7,4 @@ const person = {
   }
 };
 console.log(person.fullName());
-console.log(person.id)
+console.log(person.id);
