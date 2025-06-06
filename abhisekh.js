@@ -1,3 +1,1 @@
-const studentDetails = {
-    name: "Abhisekh"
-}
+const a = 100;
