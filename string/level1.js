@@ -7,3 +7,4 @@ const name = 'rameshwor'
 
 
 // Q3 output should be 9
+console.log(name.length)
