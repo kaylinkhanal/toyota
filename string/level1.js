@@ -9,4 +9,7 @@ const output2 = name.split('');
 console.log(output2)
 
 // Q3 output should be 9
+<<<<<<< HEAD
 console.log(name.length);
+=======
+>>>>>>> 3403a34177ddad48e015450ecb18bf1ea35a687d
