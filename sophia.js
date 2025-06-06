@@ -3,6 +3,6 @@ const object = {
   class :"mern",
   address : "lalitpur"
 }
-
+const a = 100
 
 
