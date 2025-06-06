@@ -3,7 +3,7 @@ const object = {
   class :"mern",
   address : "lalitpur"
 }
-const a = 100
+
 
 const a = 900;
 
