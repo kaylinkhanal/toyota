@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-const obj ={
-    scores:90,
-    name:'john',
-}
-
-if (obj.scores > 80){
-   obj.parandas = "very good"
-   console.log("distinct");
-}
-=======
 const obj = {
     scores: 90,
     name: "John",
@@ -24,5 +13,11 @@ const obj = {
     // status: "distinction"
 // }
 
-console.log(obj)
->>>>>>> 6562f344f3f8a9d75f4e0451d399efc9c89050e1
+if(obj.scores > 80){
+ 
+   obj.status = 'distinction';
+   
+}else{
+    obj.status='first division';
+}
+console.log(obj);
