@@ -13,4 +13,8 @@ const obj = {
     // status: "distinction"
 // }
 
+if(obj.scores>80){
+    obj.status = "distinction";
+}
+
 console.log(obj)
