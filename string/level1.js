@@ -8,3 +8,4 @@ console.log(name.slice(0,3))
 console.log(name.split(''))
 
 // Q3 output should be 9
+console.log(name.length)
