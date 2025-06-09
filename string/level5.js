@@ -5,3 +5,8 @@ let surname = 'thapa'
 // {
 // 'ram': 'thapa'
 // }
+
+const obj = {
+  [name] : surname
+};
+console.log(obj);
