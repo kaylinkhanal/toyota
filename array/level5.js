@@ -7,5 +7,9 @@ if(arr.includes(4))
 {
     let index= arr.indexOf(4)
     arr.splice(index,1)
+    console.log(arr)
 }
-console.log(arr)
+
+else{
+    console.log("4 doesnt contain in array")
+}

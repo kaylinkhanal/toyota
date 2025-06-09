@@ -12,5 +12,12 @@ const obj = {
     // name: "John",
     // status: "distinction"
 // }
+if(obj.scores>80)
+{
+    obj.status= 'distinction'
+}
 
+else{
+    obj.status = 'first division'
+}
 console.log(obj)
