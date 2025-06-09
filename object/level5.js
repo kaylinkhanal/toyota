@@ -1,5 +1,5 @@
 const obj = {
-    scores: 90,
+    scores: 60,
     name: "John",
 }
 
@@ -12,5 +12,11 @@ const obj = {
     // name: "John",
     // status: "distinction"
 // }
-
+if (obj.scores<=80) {
+    obj.status="first division"
+    
+    
+}
+else
+{obj.status="distinction"}
 console.log(obj)
