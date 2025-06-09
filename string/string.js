@@ -11,3 +11,4 @@ console.log(no2);
 
 //output should be 9
 console.log(name.length);
+
