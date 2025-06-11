@@ -26,6 +26,6 @@ const arr = [
 let totalSum =  0
 
 arr.forEach((item)=>{
-    totalSum ma harek item.price ra quantity compare garera rakhna parne cha
+    totalSum += item.price * item.quantity;
 })
 console.log(totalSum)
