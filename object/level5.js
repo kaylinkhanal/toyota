@@ -13,6 +13,7 @@ const obj = {
     // status: "distinction"
 // }
 
+<<<<<<< HEAD
 if (obj.scores > 80) {
     obj.status = 'distinction'
 } else {
@@ -20,3 +21,16 @@ if (obj.scores > 80) {
 }
 
 console.log(obj)
+=======
+if(obj.scores >= 80){
+obj.status = "distinction"
+} else{
+obj.status = "first division"
+}
+
+
+console.log(obj)
+
+
+
+>>>>>>> 29b5897132d131e6adce79713dc0c0f76102b0c2
