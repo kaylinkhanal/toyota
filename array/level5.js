@@ -11,3 +11,8 @@ if (index !== -1) {
 
 console.log(arr); 
 
+const matchId = arr.indexOf(7)
+if(matchId !== -1){
+    arr.splice(matchId,1)
+}
+console.log(arr)
