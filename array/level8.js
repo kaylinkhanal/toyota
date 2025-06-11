@@ -22,7 +22,7 @@ const arr = [
   // calculate the total cost of all items
 let totalSum =  0
 
-arr.forEach((item)=>{
+arr.forEach((item) =>{
     totalSum = totalSum + (item.price * item.quantity)
 })
 console.log(totalSum)
