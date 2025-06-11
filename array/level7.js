@@ -1,7 +1,7 @@
 const arr = [3,5,2,5,12,4]
 //q1. return only even numbers
 const output = arr.map((item)=>{
-    yedi ( item lai 2 le divide garda reminder === 0){
+    if ( item % 2 === 0){
         return item
     }
 })
