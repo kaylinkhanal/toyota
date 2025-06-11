@@ -26,6 +26,6 @@ const arr = [
 let totalSum =  0
 
 arr.forEach((item)=>{ 
-  totalSum = totalSum + item.price*item.quantity;
+  totalSum  += item.price*item.quantity;
 });
 console.log(totalSum)
