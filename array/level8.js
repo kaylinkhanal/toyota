@@ -4,7 +4,6 @@ const arr = [
       "name": "Wireless Bluetooth Headphones",
       "price": 59.99,
       "quantity": 2,
-
     },
     {
       "productId": "PROD-B002",
@@ -28,3 +27,4 @@ arr.forEach((item)=>{
     totalSum += subtotal
 })
 console.log(totalSum)
+
