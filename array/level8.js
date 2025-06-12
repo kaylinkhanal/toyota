@@ -27,3 +27,4 @@ arr.forEach((item)=>{
     totalSum += item.quantity * item.price
 })
 console.log(totalSum)
+
