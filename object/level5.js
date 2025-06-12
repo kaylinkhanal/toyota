@@ -13,16 +13,6 @@ const obj = {
     // status: "distinction"
 // }
 
-<<<<<<< HEAD
-if(obj.scores > 80){
-    obj.status = 'distinction'
-}
-else
-{
-obj.status = '1st division'
-}
-console.log(obj)
-=======
 if(obj.scores >= 80){
 obj.status = "distinction"
 } else{
@@ -34,4 +24,3 @@ console.log(obj)
 
 
 
->>>>>>> 4b26123fa333d57e2fda3da4c190dc9c0fb3683b

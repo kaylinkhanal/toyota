@@ -5,3 +5,9 @@ const scores = {
 }
 
 //calcualte total percentage using for in loop
+
+let sum = 0
+for (let item in scores){
+    sum = sum + scores[item]
+}
+console.log(sum/450*100)
