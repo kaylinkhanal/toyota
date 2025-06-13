@@ -12,7 +12,7 @@ const surnameMap = {
 // 'kaylin khanal', 'james smith', 'maria', 'john', 'sarah johnson'];
 
 const output = firstName.map((item)=>{
-    console.log(surnameMap[item])
+    console.log(surnameMap[item] + item)
 })
 
 console.log(output)
