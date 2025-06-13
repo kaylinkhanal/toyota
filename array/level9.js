@@ -53,8 +53,16 @@ const arr = [
 
   // calculate the total cost of all items using reduce
 
+<<<<<<< HEAD
 const total = arr.reduce((accumulator, currentValue) => {
   return accumulator + currentValue.price * currentValue.quantity;
 }, 0);
 
 console.log(total);
+=======
+  const total = arr.reduce((accumulator, currentValue) => {
+    return accumulator + (currentValue.price * currentValue.quantity);
+  },0)
+
+  console.log(total)
+>>>>>>> 0fdd4859d40465962e26fcbd60883af69e4748be
