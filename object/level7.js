@@ -20,4 +20,14 @@ const user = [
 
 ]
 
-/// calcualte the average percentage scored by all the students
+/// calcualte the average percentage scored by all the student
+let totalPercentage = 0;
+user.forEach((item)=>{
+        const eachScores = Object.values(item.scores)
+        const scores = eachScores.reduce((acc, currentValue) => {
+        return acc + currentValue;
+        });
+
+        totalPercentage = totalPercentage + (scores/300*100)
+})
+console.log(totalPercentage/2)

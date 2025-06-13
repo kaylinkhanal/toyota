@@ -1,11 +1,11 @@
 const name  = 'ram'
 let surname = 'thapa'
 
-let obj = {
-    [name]: surname
-}
+const result = {
+    [name]:surname
+};
+console.log(result)
 
-console.log(obj)
 //expected output 
 // {
 // 'ram': 'thapa'

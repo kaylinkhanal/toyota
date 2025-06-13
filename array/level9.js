@@ -55,6 +55,13 @@ const arr = [
 
   const total = arr.reduce((accumulator, currentValue) => {
     return accumulator + (currentValue.price * currentValue.quantity);
+<<<<<<< HEAD
+
+  
   },0)
+
+=======
+  },0)
+>>>>>>> 0fdd4859d40465962e26fcbd60883af69e4748be
 
   console.log(total)

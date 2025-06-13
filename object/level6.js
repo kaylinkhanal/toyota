@@ -5,12 +5,12 @@ const scores = {
 }
 
 //calcualte total percentage using for in loop
-// each subject score is 150
+//each subject score is 150
 
-let sum =0 
-for (let item in scores ) {
-sum = sum + scores[item]
+let sum = 0
+for (let  key in scores){
+    sum+= scores [key]
+
+
 }
-
-
-console.log(sum/450 * 100)
+console.log(sum/450 *100)
