@@ -13,7 +13,7 @@ const user = [
     age: 30,
     scores: {
         math: 82,
-        english: 94,
+        account: 94,
         science: 71
     }
 }
