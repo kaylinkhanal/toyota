@@ -21,3 +21,20 @@ const user = [
 ]
 
 /// calcualte the average percentage scored by all the students
+let totalPercentage = 0;
+user.forEach((item) => {
+  let sum = 0;
+  let subjectCount = 0;
+
+  for (let subject in item.scores) {
+    sum += item.scores[subject];
+    subjectCount++;
+  }
+
+  let percentage = sum / subjectCount;
+  totalPercentage += percentage;
+});
+
+const averagePercentage = totalPercentage / user.length;
+
+console.log("Average Percentage:", averagePercentage.toFixed(2));
