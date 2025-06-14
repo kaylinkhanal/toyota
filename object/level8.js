@@ -23,7 +23,7 @@ console.log(output)
 
 
 
-// const output = firstName.map((names)=>{
+// const output = firstName.forEach((names)=>{
 //   if(surnameMap[names]){
 //     console.log(`${names} ${surnameMap[names]}`);
 //   }

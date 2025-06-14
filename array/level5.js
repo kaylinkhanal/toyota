@@ -7,13 +7,7 @@ if(index !== -1){
    arr.splice[index,1]; 
 }
 
-<<<<<<< HEAD
 console.log(arr);
-=======
-//hint:
-// indexOf
-// remove that index from array (splice)
->>>>>>> 4b26123fa333d57e2fda3da4c190dc9c0fb3683b
 
 const matchId = arr.indexOf(7)
 if(matchId !== -1){
