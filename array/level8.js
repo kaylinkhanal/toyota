@@ -20,6 +20,7 @@ const arr = [
   ]
 
   // calculate the total cost of all items
+<<<<<<< HEAD
 let totalSum =  0
 
 arr.forEach((item)=>{
@@ -28,3 +29,10 @@ arr.forEach((item)=>{
 })
 console.log(totalSum)
 
+=======
+
+arr.forEach((item)=>{
+    totalSum ma harek item.price ra quantity compare garera rakhna parne cha
+})
+console.log(totalSum)
+>>>>>>> 8365af9868a78988f58c4754b93d4e76728423a2

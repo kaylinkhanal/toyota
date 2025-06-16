@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  const char = "aabbbbccc"
 
  const arr = char.split('');
@@ -13,3 +14,8 @@
      return current[1] > max[1] ? current : max;
  }, ['', 0]);
  console.log(`The character with the maximum count is '${maxChar}' with a count of ${maxCount}.`);
+=======
+const char = 'aabsshdfowakaaaalswwwl'
+
+//output should be 7
+>>>>>>> 8365af9868a78988f58c4754b93d4e76728423a2
