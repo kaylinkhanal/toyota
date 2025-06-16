@@ -1,0 +1,19 @@
+const firstName = ['kaylin', 'james', 'maria', 'john', 'sarah'];
+
+const surnameMap = {
+    kaylin: 'khanal',
+    james: 'smith',
+    gopal: 'hamal',
+    shiva: 'shrestha',
+    sarah: 'johnson',
+}
+
+const output = firstName.map((item) => {
+    if (surnameMap[item]) {
+        return item + ' ' + surnameMap[item];
+    } else {
+        return item;
+    }
+});
+
+console.log(output);

@@ -20,12 +20,9 @@ const arr = [
   ]
 
   // calculate the total cost of all items
-<<<<<<< HEAD
 let totalSum =  0
 
 arr.forEach((item)=>{
    totalSum = totalSum + (item.price * item.quantity);
 });
 console.log(totalSum)
-=======
->>>>>>> 22ee69cd2097bb960f593551be3c7cf1d71cbb0f
