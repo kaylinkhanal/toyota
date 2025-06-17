@@ -1,10 +1,14 @@
-const char = 'aabsshdfowakaaaalswwwl';
+const char = 'aabsshdfowakaaaalswwwl'
+//output should be 7
 
-let max = 0, count = 1;
+const charArr  = char.split('')
+console.log(charArr)
 
-for (let i = 1; i < char.length; i++) {
-  count = (char[i] === char[i - 1]) ? count + 1 : 1;
-  if (count > max) max = count;
-}
+const countMap = {}
+charArr.forEach((item) => {
+    countMap[item] = countMap[item] ? countMap[item] +1 : 1
+})
+console.log(countMap)
 
-console.log(max);
+const maxValue = Math.max(...Object.values(countMap));
+console.log(maxValue)
