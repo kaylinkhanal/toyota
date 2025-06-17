@@ -10,10 +10,4 @@ console.log( name.split(""));
 
 // Q3 output should be 9
 console.log(name.length);
-=======
 
-
-//Q2 output should be ['r','a','m','e','s','h','w','o', 'r']
-
-// Q3 output should be 9
->>>>>>> 88b117fe4cffe8e265735bcddbad9180d19d95e2
