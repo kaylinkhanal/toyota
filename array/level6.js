@@ -8,6 +8,9 @@ const z = arr.filter((item)=>{
 console.log(z)
 
 
+// foreach vs map vs filter vs find vs reduce
+
+
 
 
 

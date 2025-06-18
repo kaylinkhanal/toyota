@@ -9,10 +9,10 @@ const surnameMap = {
 }
 
 // expected output : 
-// 'kaylin khanal', 'james smith', 'maria', 'john', 'sarah johnson'];
+// ['kaylin khanal', 'james smith', 'maria', 'john', 'sarah johnson'];
 
 const output = firstName.map((item)=>{
-    console.log(surnameMap[item] + item)
+return surnameMap[item] ?   item + surnameMap[item]  : item
 })
 
 console.log(output)
