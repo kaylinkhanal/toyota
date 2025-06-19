@@ -5,12 +5,12 @@ const productList = [
     {id: 13, name: 'Baltra cooker', price: 2000, image: 'logo2.png'},
 ]
 const Home = () => {
-    const name = 'ram'
+
   return (
-    <div>
+    <div className='flex gap-2'>
         {productList.map((item, id)=>{
            return( <div key={id}>
-                  <Card item={item}/>
+                  <Card item={item} id={id}/>
                 </div>)
             })}
     </div>

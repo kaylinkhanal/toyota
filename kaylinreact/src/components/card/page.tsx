@@ -1,13 +1,37 @@
 import React from 'react'
+import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { Badge } from '../ui/badge'
 
-const Card = (props) => {
+const CustomCard = ({item, id }) => {
   return (
-    <div className='shadow-sm p-4 m-4 w-72'>
-        <img src={props.item.image} alt="Card Image" width={100} height={100}/>
-       {props.item.name}
-        price:        {props.item.price}
-    </div>
+    <Card className="w-full max-w-sm">
+    <CardHeader>
+      <CardTitle>{item.name}</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <img src={item.image} alt="Card Image"  className='w-full' height={100}/>
+      <div>
+      </div> 
+    </CardContent>
+    <CardFooter className="flex-col gap-2">
+    price:        {item.price}
+    <Badge variant=" destructive">20% off</Badge>
+    </CardFooter>
+  </Card>
+   
   )
 }
 
-export default Card
+export default CustomCard
+

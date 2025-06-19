@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 const Login = () => {
   return (
@@ -19,3 +19,11 @@ const Login = () => {
 }
 
 export default Login
+
+
+Parent vs child Component
+-> How compoennts are nested to one another / or how they communicate
+-> Parent renders child component within itself.
+-> Parent can pass properties to the child, which is known as props
+
+Props in react
