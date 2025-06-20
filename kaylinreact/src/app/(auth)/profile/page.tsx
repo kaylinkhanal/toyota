@@ -1,10 +1,9 @@
-import SideBar from '@/components/sidebar'
 import React from 'react'
 
 const Profile = () => {
   return (
     <div>
-    Profile
+    profile
     </div>
   )
 }
