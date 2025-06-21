@@ -4,7 +4,7 @@ import React from "react";
 
 const productList = [
   { id: 1, name: "T-shirt", price: 1200, img: "tshirt.avif" },
-  { id: 1, name: "Coach Bag", price: 1200, img: "coach.avif" },
+  { id: 1, name: "Coach Bag", price: 1500, img: "coach.avif" },
 ];
 
 const Home = () => {
