@@ -5,13 +5,13 @@ import React, { useState } from 'react'
 const Counter = () => {
     let [a, setA] = useState(5)
     const decrement = (() => {
-        if(!(a===0)){
+        if(!(a<=0)){
             setA(a-1)
         }  
     })
 
     const increment= (()=>{
-        if (!(a===10))
+        if (!(a>=10))
         setA(a+1)
     })
     return (
