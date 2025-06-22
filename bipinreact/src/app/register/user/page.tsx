@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import React from "react";
 
 const Users = () => {
@@ -48,8 +50,11 @@ const Users = () => {
           placeholder="Enter your password"
           style={{ border: "1px solid black", margin: "10px", padding: "10px", width: "250px" }}
         />
-        <button style={{border:'1px solid black',padding:'10px',borderRadius:'15px',backgroundColor:'blue',color:'white'}}>Submit</button>
+
+       <Button>This is Shad Cn Button</Button>
       </div>
+
+      <Card/>
     </div>
   );
 };
