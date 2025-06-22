@@ -30,7 +30,7 @@ const ChatBar = () => {
         return (
             <div className='flex gap-5 mb-2 ml-5' key={id}>
                 <CircleUserRound/>
-                <span className='font-bold text-sm'>  {item.name}</span>
+                <span className=' text-md'>  {item.name}</span>
              </div>
         )
        })}
