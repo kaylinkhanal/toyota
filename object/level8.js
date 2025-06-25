@@ -38,16 +38,12 @@ const surnameMap = {
   sarah: "johnson",
 };
 
-// expected output :
-// 'kaylin khanal', 'james smith', 'maria', 'john', 'sarah johnson'];
+// expected output : 
+// ['kaylin khanal', 'james smith', 'maria', 'john', 'sarah johnson'];
 
-const output = firstName.map((item) => {
-    if(surnameMap[item]){
-        return item +" "+ surnameMap[item];
-    }else{
-        return item;
-    }
-});
+const output = firstName.map((item)=>{
+return surnameMap[item] ?   item + surnameMap[item]  : item
+})
 
 console.log(output);
 >>>>>>> 8365af9868a78988f58c4754b93d4e76728423a2

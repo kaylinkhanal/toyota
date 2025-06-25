@@ -19,13 +19,24 @@ setA(a+1);
         console.log(a);
     }
     const decrement = () =>{
-      setA(a-1);
+      if(a>0){
+
+        setA(a-1);
+      }
+       if(a==0){
+        alert("cannot be less than 0")
+      }
+
       console.log(a);
+    }
+    const reset = () => {
+      setA(0);
     }
   return (
     <div>{a}
     <button onClick={increment} className='p-2 bg-amber-500' >client this button</button>
     <button onClick={decrement} className='p-2 bg-amber-950'>Decrement</button>
+    <button onClick={reset} className='p-2 bg-amber-600'>reset</button>
     </div>
   )
 }
